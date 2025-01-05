@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --border: 240 3.7% 80.9%;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  
+}
+
+@layer utilities {
+  .nav-link {
+    @apply text-white hover:text-neutral-400 ease-linear duration-150;
+  }
+  .bg-border {
+    background-color: hsl(var(--border));
+  }
+}

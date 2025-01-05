@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 63.3 62">
+  <defs>
+    <linearGradient id="Degradado_sin_nombre_11" data-name="Degradado sin nombre 11" x1="4.3" y1="50.8" x2="57.8" y2="50.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#377565"/>
+      <stop offset=".1" stop-color="#3e7962"/>
+      <stop offset=".3" stop-color="#52855c"/>
+      <stop offset=".5" stop-color="#729951"/>
+      <stop offset=".7" stop-color="#a0b442"/>
+      <stop offset="1" stop-color="#d9d730"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_11-2" data-name="Degradado sin nombre 11" y1="11.1" y2="11.1" xlink:href="#Degradado_sin_nombre_11"/>
+    <linearGradient id="Degradado_sin_nombre_11-3" data-name="Degradado sin nombre 11" x1="17.5" y1="38.1" x2="31.3" y2="38.1" xlink:href="#Degradado_sin_nombre_11"/>
+    <linearGradient id="Degradado_sin_nombre_11-4" data-name="Degradado sin nombre 11" x1="27.2" y1="32.7" x2="45.6" y2="32.7" xlink:href="#Degradado_sin_nombre_11"/>
+  </defs>
+  <polygon points="57.8 57.6 4.3 57.6 4.3 44 10.8 44 10.8 51.1 51.3 51.1 51.3 45.1 57.8 45.1 57.8 57.6" fill="url(#Degradado_sin_nombre_11)" stroke-width="0"/>
+  <polygon points="57.8 18.2 51.3 18.2 51.3 10.6 10.8 10.6 10.8 17.7 4.3 17.7 4.3 4 57.8 4 57.8 18.2" fill="url(#Degradado_sin_nombre_11-2)" stroke-width="0"/>
+  <polygon points="24.4 46.5 17.5 46.5 24.4 29.8 31.3 29.8 24.4 46.5" fill="url(#Degradado_sin_nombre_11-3)" stroke-width="0"/>
+  <polygon points="34.1 46.5 27.2 46.5 38.7 18.9 45.6 18.9 34.1 46.5" fill="url(#Degradado_sin_nombre_11-4)" stroke-width="0"/>
+</svg>
