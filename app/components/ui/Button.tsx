@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils"
 
 
 const buttonVariants = cva(
-    "border  rounded-full  font-medium ease-in-out duration-100 items-center justify-center",
+    "border  rounded-full  font-medium transition ease-in-out duration-100 items-center justify-center",
     {
         variants: {
             variant: {

@@ -1,0 +1,128 @@
+{
+  "CallToAction": {
+    "tryForFree": "Try it for FREE"
+  },
+  "Hero": {
+    "caption": "Best UI Practice",
+    "heading": "UI library for<br></br>Design Engineers",
+    "patagraph": "50+ free and open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion.Perfect companion for shadcn/ui.",
+    "signUp": "Sign Up",
+    "enterEmail": "Enter your email",
+    "yalda": "Yalda",
+    "night": "Night"
+  },
+  "Navbar": {
+    "logoText1": "Landing",
+    "logoText2": "App",
+    "signUp": "Sign Up",
+    "logIn": "Log In",
+    "links": {
+      "Home": "Home",
+      "Features": "Features",
+      "Integrations": "Integrations",
+      "FAQs": "FAQs"
+    },
+    "lang":"فارسی"
+  },
+  "Logos": {
+    "title": "Trusted by some of the biggest names on the web"
+  },
+  "IntroReveal": {
+    "tag": "Introducing Our App",
+    "lead": "You deserve better Apps.",
+    "text": " I’ve written a few thousand words on why traditional “semantic class names” are the reason CSS is hard to maintain, but the truth is you’re never going to believe me until you actually try it. If you can suppress the urge to retch long enough to give it a chance.",
+    "tail": "Thats why we are here"
+  },
+  "Features": {
+    "subFeatures": {
+      "AssetLibrary": "Asset Library",
+      "CodePreview": "Code Preview",
+      "FlowMode": "Flow Mode",
+      "SmartSync": "Smart Sync",
+      "AutoLayout": "Auto Layout",
+      "FastSearch": "Fast Search",
+      "SmartGuides": "Smart Guides"
+    },
+    "tag": "Features",
+    "heading": "“Best practices” <br></br>don’t actually",
+    "headingHighlight": "work",
+    "card1": {
+      "title": "Built-in Optimizations",
+      "description": "Automatic Image, Font, and Script Optimizations for improved UX and Core Web Vitals."
+    },
+    "card2": {
+      "title": "Dynamic HTML Streaming",
+      "description": "Instantly stream UI from the server, integrated with the App Router and React Suspense.",
+      "head1": "Everything for",
+      "head2": "great products",
+      "head3": "on the web"
+    },
+    "card3": {
+      "title": "React Server Components",
+      "description": "Add components without sending additional client-side JavaScript. Built on the latest React features."
+    }
+  },
+  "Marquee": {
+    "tag": "Integrations",
+    "heading1": "Built on a",
+    "heading2": "foundation of fast",
+    "description": "Everything you need to build great products on the web.quality web applications with the power of React components.",
+    "integrations": {
+      "Figma": {
+        "name": "Figma",
+        "description": "Figma is a collaborative interface design tool."
+      },
+      "Notion": {
+        "name": "Notion",
+        "description": "Notion is an all-in-one workspace for notes and docs."
+      },
+      "Slack": {
+        "name": "Slack",
+        "description": "Slack is a powerful team communication platform."
+      },
+      "Relume": {
+        "name": "Relume",
+        "description": "Relume is a no-code website builder and design system."
+      },
+      "Framer": {
+        "name": "Framer",
+        "description": "Framer is a professional website prototyping tool."
+      },
+      "GitHub": {
+        "name": "GitHub",
+        "description": "GitHub is the leading platform for code collaboration."
+      }
+    }
+  },
+  "Faq": {
+    "tag": "FAQS",
+    "heading1": "Questions? we have got",
+    "heading2": "answers",
+    "item1": {
+      "question": "How is Layers different from other design tools?",
+      "answer": "Unlike traditional design tools, Layers prioritizes speed and simplicity without sacrificing power. Our intelligent interface adapts to your workflow, reducing clicks and keeping you in your creative flow."
+    },
+    "item2": {
+      "question": "Is there a learning curve?",
+      "answer": "Layers is designed to feel intuitive from day one. Most designers are productive within hours, not weeks. We also provide interactive tutorials and comprehensive documentation to help you get started."
+    },
+    "item3": {
+      "question": "How do you handle version control?",
+      "answer": "Every change in Layers is automatically saved and versioned. You can review history, restore previous versions, and create named versions for important milestones."
+    },
+    "item4": {
+      "question": "Can I work offline?",
+      "answer": "Yes! Layers includes a robust offline mode. Changes sync automatically when you're back online, so you can keep working anywhere."
+    },
+    "item5": {
+      "question": "How does Layers handle collaboration?",
+      "answer": "Layers is built for collaboration. You can invite team members to your projects, share feedback, and work together in real-time."
+    }
+  },
+  "Footer":{
+    "copyright":"Design by m.r.alizade",
+     "link1": "Contact",
+     "link2": "Privacy",
+     "link3": "Terms"
+  }
+}

@@ -8,6 +8,7 @@ import Pointer from "./ui/Pointer"
 import { motion, useAnimate } from "motion/react";
 import { useEffect } from "react"
 import cursorImage from '@/public/cursor-you.svg'
+import { useTranslations } from "next-intl";
 
 
 const Hero = () => {
@@ -15,6 +16,8 @@ const Hero = () => {
     const [lefPointerScope, lefPointerAnimate] = useAnimate()
     const [rightItemScope, rightItemAnimate] = useAnimate()
     const [rightPointerScope, rightPointerAnimate] = useAnimate()
+
+    const t = useTranslations('Hero');
 
     useEffect(() => {
         lefItemAnimate([
@@ -43,6 +46,7 @@ const Hero = () => {
         <div className="py-24 overflow-x-clip"
             style={{ cursor: `url(${cursorImage.src}), auto` }}>
             <div className="container mx-auto max-w-5xl relative" >
+                <div dir="ltr">
                 <motion.div
                     className="absolute -left-34 top-36 hidden lg:block"
                     ref={lefItemScope}
@@ -56,7 +60,7 @@ const Hero = () => {
                     ref={lefPointerScope}
                     initial={{ opacity: 0, y: 90, x: -200 }}
                 >
-                    <Pointer color="bg-blue-500" name="Yalda" />
+                    <Pointer color="bg-blue-500" name={t('yalda')} />
                 </motion.div>
 
                 <motion.div
@@ -73,27 +77,29 @@ const Hero = () => {
                     ref={rightPointerScope}
                     initial={{ opacity: 0, y: 100, x: 250 }}
                 >
-                    <Pointer color="bg-red-500" name="Night" />
+                    <Pointer color="bg-red-500" name={t('night')} />
                 </motion.div>
-
+                </div>
                 <div className="flex justify-center flex-col  gap-6 px-7 pb-8 text-center items-center md:px-10">
                     <div
                         className="inline-flex py-1 px-3 rounded-full items-center cursor-default
                         bg-gradient-to-r from-red-600 to-purple-600 text-neutral-50 font-semibold">
                         ✨
                         <div className="shrink-0 bg-border w-px mx-2 h-4"></div>
-                        Best UI Practice
+                        {t('caption')}
                         <ChevronRight className="ml-1 h-4 w-4 text-muted-foreground" />
                     </div>
 
-                    <h1 className="text-4xl lg:text-6xl text-center "> UI library for<br />Design Engineers</h1>
+                    <h1 className="text-4xl lg:text-6xl text-center rtl:font-bold ">
+                        {t.rich('heading', { br: () => <br /> })}
+                    </h1>
                     <p className="max-w-2xl text-balance  tracking-tight font-medium text-white text-center text-lg ">
-                        50+ free and open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion.
-                        Perfect companion for shadcn/ui.</p>
+                        {t('patagraph')}
+                    </p>
                     <form className="flex border border-white/15 rounded-full p-2 justify-between max-w-fit">
-                        <input type="email" placeholder="Enter your email"
+                        <input type="email" placeholder={t('enterEmail')}
                             className="bg-transparent outline-none px-4 flex-grow" />
-                        <Button variant='default' size='sm' className="text-nowrap">Sign Up</Button>
+                        <Button variant='default' size='sm' className="text-nowrap">{t('signUp')}</Button>
                     </form>
                 </div>
             </div>

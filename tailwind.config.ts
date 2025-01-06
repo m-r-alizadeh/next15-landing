@@ -13,8 +13,8 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        sans: ['var(--font-geist-sans)'],
-        mono: ['var(--font-geist-mono)'],
+        estedad: ["var(--font-estedad)", "sans-serif"],
+        geist: ["var(--font-geist)", "sans-serif"],
       },
     },
   },
