@@ -74,9 +74,13 @@ const Navbar = () => {
                                     <line x1="3" y1="18" x2="21" y2="18" className={cn("origin-left transition", isOpen && "-rotate-45 translate-y-1")}></line>
                                 </svg>
                                 <Button variant='secondary' className="hidden md:inline-flex">{t('logIn')}</Button>
-                                <Button variant='default' className="hidden md:inline-flex ltr:font-estedad rtl:font-geist"
+                                <Button
+                                    variant='default'
+                                    className="hidden md:inline-flex"
                                     onClick={handleLanguageToggle}
-                                >{t('lang')}</Button>
+                                >
+                                    {t('lang')}
+                                </Button>
                             </div>
                         </div>
                         <AnimatePresence>

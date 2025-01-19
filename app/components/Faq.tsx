@@ -73,7 +73,7 @@ const Faq = () => {
                                                 initial={{ height: 0, marginTop: 0 }}
                                                 animate={{ height: 'auto', marginTop: 24 }}
                                                 exit={{ height: 0, marginTop: 0 }}
-                                                className="overflow-hidden">
+                                                className="overflow-hidden origin-center">
                                                 <p className="text-white/50">{t(`item${index + 1}.answer`)}</p>
                                             </motion.div>
                                         }
